@@ -50,7 +50,7 @@ renderSelectData()
 select.addEventListener("change", function() {
     renderSelectData();
 });
-
+console.log(window.location.href)
 
 
 
