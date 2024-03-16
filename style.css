@@ -81,6 +81,12 @@
     gap: 1rem;
   }
   /* MAIN */
+  main{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   /* SEARCH */
   .search{
     display: flex;
@@ -152,12 +158,6 @@
     box-shadow: 
     0 0 5px 1px black;
     background-color: var(--dark-blue);
-  }
-  main{
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .country-flag{
     margin-top: 2rem;
